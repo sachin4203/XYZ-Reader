@@ -107,7 +107,7 @@ public class ArticleDetailActivity extends AppCompatActivity
             s.excludeTarget(android.R.id.statusBarBackground, true);
             s.excludeTarget(android.R.id.navigationBarBackground, true);
             s.excludeTarget(R.id.photo_container, true);
-            s.excludeTarget(R.id.toolbar, true);
+            s.excludeTarget(R.id.main_toolbar, true);
             Fade s2 = new Fade();
             TransitionSet transitionSet = new TransitionSet();
             transitionSet.addTransition(s).addTransition(s2);

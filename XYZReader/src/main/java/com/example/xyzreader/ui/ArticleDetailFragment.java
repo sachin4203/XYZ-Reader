@@ -250,6 +250,7 @@ public class ArticleDetailFragment extends Fragment implements
                                 mMutedColor = p.getDarkMutedColor(0xFF333333);
                                 mRootView.findViewById(R.id.meta_bar)
                                         .setBackgroundColor(mMutedColor);
+                                mRootView.findViewById(R.id.meta_bar).setAlpha(0.9f);
                                 updateStatusBar();
                                 startPostponedTransition();
                             }

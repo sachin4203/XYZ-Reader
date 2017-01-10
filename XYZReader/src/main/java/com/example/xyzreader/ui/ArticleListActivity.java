@@ -15,7 +15,7 @@ import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.app.SharedElementCallback;
 import android.support.v4.util.Pair;
 import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
@@ -24,7 +24,6 @@ import android.text.format.DateUtils;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -45,7 +44,7 @@ import java.util.Map;
  * touched, lead to a {@link ArticleDetailActivity} representing item details. On tablets, the
  * activity presents a grid of items as cards.
  */
-public class ArticleListActivity extends ActionBarActivity implements
+public class ArticleListActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor> {
 
     public static final String TAG = ArticleDetailActivity.class.getSimpleName();
@@ -102,12 +101,12 @@ public class ArticleListActivity extends ActionBarActivity implements
         }
         setContentView(R.layout.activity_article_list);
 
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mToolbar = (Toolbar) findViewById(R.id.main_toolbar);
 
 
         mCardContainer = (LinearLayout) findViewById(R.id.listItemContainer);
 
-        final View toolbarContainerView = findViewById(R.id.toolbar_container);
+        mToolbar.setNavigationIcon(R.drawable.logo);
 
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
 
@@ -237,6 +236,7 @@ public class ArticleListActivity extends ActionBarActivity implements
                             + " by "
                             + mCursor.getString(ArticleLoader.Query.AUTHOR));
 
+            holder.thumbnailView.setAspectRatio(mCursor.getFloat(ArticleLoader.Query.ASPECT_RATIO));
 
             Picasso.with(ArticleListActivity.this).load(mCursor.getString(ArticleLoader.Query.THUMB_URL)).into(holder.thumbnailView,
                     new Callback() {
@@ -277,7 +277,7 @@ public class ArticleListActivity extends ActionBarActivity implements
 
 
         public class ViewHolder extends RecyclerView.ViewHolder {
-            public ImageView thumbnailView;
+            public DynamicHeightNetworkImageView thumbnailView;
             public TextView titleView;
             public TextView subtitleView;
             public LinearLayout listBackground;
@@ -285,7 +285,7 @@ public class ArticleListActivity extends ActionBarActivity implements
 
             public ViewHolder(View view) {
                 super(view);
-                thumbnailView = (ImageView) view.findViewById(R.id.thumbnail);
+                thumbnailView = (DynamicHeightNetworkImageView) view.findViewById(R.id.thumbnail);
                 titleView = (TextView) view.findViewById(R.id.article_title);
                 subtitleView = (TextView) view.findViewById(R.id.article_subtitle);
                 listBackground = (LinearLayout) view.findViewById(R.id.listItemContainer);
