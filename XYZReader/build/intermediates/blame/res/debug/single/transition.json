@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\AndroidDump2\\newtry\\XYZReader\\build\\intermediates\\res\\merged\\debug\\transition\\explode.xml",
+        "source": "C:\\AndroidDump2\\newtry\\XYZReader\\src\\main\\res\\transition\\explode.xml"
+    },
+    {
+        "merged": "W:\\Users\\kapil pc\\Desktop\\Embeded Systems\\newtry\\XYZReader\\build\\intermediates\\res\\merged\\debug\\transition\\explode.xml",
+        "source": "W:\\Users\\kapil pc\\Desktop\\Embeded Systems\\newtry\\XYZReader\\src\\main\\res\\transition\\explode.xml"
+    },
+    {
+        "merged": "W:\\Users\\kapil pc\\Desktop\\Embeded Systems\\newtry\\XYZReader\\build\\intermediates\\res\\merged\\debug\\transition\\change_image_transform.xml",
+        "source": "W:\\Users\\kapil pc\\Desktop\\Embeded Systems\\newtry\\XYZReader\\src\\main\\res\\transition\\change_image_transform.xml"
+    },
+    {
+        "merged": "C:\\AndroidDump2\\newtry\\XYZReader\\build\\intermediates\\res\\merged\\debug\\transition\\change_image_transform.xml",
+        "source": "C:\\AndroidDump2\\newtry\\XYZReader\\src\\main\\res\\transition\\change_image_transform.xml"
+    }
+]

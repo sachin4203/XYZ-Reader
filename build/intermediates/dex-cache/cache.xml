@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\AndroidDump2\newtry\XYZReader\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.1.0_233755745700e6c7840ac0c77c9a727fc92e0fc6.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDump2\newtry\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-23.1.0_a019206a46d8baa3c4aa1c94c375750ba6a5d779.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDump2\newtry\XYZReader\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.0_a03792269a67c457fa62c2730de432c464f96f4d.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDump2\newtry\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-23.1.0_8f5f3f1c64361c2f9b3f5b02e25e684088859fc8.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDump2\newtry\XYZReader\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\volley_6ee485861f48aa18789ee2aa28da36bc85a7b31b.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDump2\newtry\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.0_0924bd161ab26747336df995a99dd5cff5c16314.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDump2\newtry\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.1.0_7b3450f115c55920d8f05ee318bc7ebba9c3ae0b.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDump2\newtry\XYZReader\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.0_9a504a846f11a8eac8d1bf6bd896291b59bd57ec.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDump2\newtry\XYZReader\build\intermediates\exploded-aar\com.android.support\palette-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="167a5721524b1d2810d1b41ed76eff1d53a0e82b">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-palette-v7-23.1.0_a8a418b26625d619aeb5305cb5b90888f82986f4.jar" />
+    </item>
+    <item
+        jar="C:\Android Studio\2\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\support-annotations-23.1.0_c35e3fdc17f87b0ef80fde4fb4e7377ad9c7b27c.jar" />
+    </item>
+    <item
+        jar="W:\Users\kapil pc\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\okio-1.6.0_0a1b96252ed6b81823d60c3f0cbda164070e1c28.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDump2\newtry\XYZReader\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.0_fc0e240243da61d40199a499281cfa49e8a94a6a.jar" />
+    </item>
+    <item
+        jar="W:\Users\kapil pc\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\okhttp-3.1.2_a08073da6ff1a8449233e24e32d130a072a8bcc8.jar" />
+    </item>
+    <item
+        jar="W:\Users\kapil pc\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\AndroidDump2\newtry\XYZReader\build\intermediates\pre-dexed\debug\picasso-2.5.2_ffa960c1d91732b842b183aea177cac3d6e53fac.jar" />
+    </item>
+
+</items>
